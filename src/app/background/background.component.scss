@@ -1,4 +1,4 @@
-@import '../assets/colors.scss';
+@import '../../assets/colors.scss';
 
 @mixin grid($blockcolor, $linecolor, $linewidth, $linespread) {
   $spread: ($linewidth + $linespread) / 2;

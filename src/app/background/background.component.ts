@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BackgroundComponent implements OnInit {
   @Input() variant: string = '';
+  @Input() cls: string = '';
   variantText: string = '';
 
   constructor() {}
