@@ -16,14 +16,19 @@ export class BackgroundComponent implements OnInit {
     switch (this.variant) {
       case 'success':
         this.variantText = '--success';
+        break;
       case 'warning':
         this.variantText = '--warning';
+        break;
       case 'danger':
         this.variantText = '--danger';
+        break;
       case 'attention':
         this.variantText = '--attention';
+        break;
       default:
         this.variantText = '';
+        break;
     }
   }
 
