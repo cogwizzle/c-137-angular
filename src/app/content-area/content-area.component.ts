@@ -1,13 +1,12 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-button',
-  templateUrl: './button.component.html',
-  styleUrls: ['./button.component.scss']
+  selector: 'app-content-area',
+  templateUrl: './content-area.component.html',
+  styleUrls: ['./content-area.component.scss']
 })
-export class ButtonComponent implements OnInit {
+export class ContentAreaComponent implements OnInit {
   @Input() variant: string = '';
-  @Input() onClick: Function;
   variantText: string = '';
 
   constructor() {}
