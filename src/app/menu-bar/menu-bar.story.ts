@@ -36,5 +36,5 @@ storiesOf('MenuBar', module)
     moduleMetadata: {
       declarations: [MenuBarComponent]
     },
-    template: `<app-menu-bar invert variant="danger"><h1>header</h1></app-menu-bar>`
+    template: `<app-menu-bar invert="true" variant="danger"><h1>header</h1></app-menu-bar>`
   }));

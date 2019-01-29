@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
   @Input() variant: string = '';
-  @Input() invert: boolean;
+  @Input() invert: string;
   variantText: string = '';
 
   constructor() {}
@@ -32,8 +32,8 @@ export class MenuBarComponent implements OnInit {
     }
 
     switch (this.invert) {
-      case true:
-        this.variantText += '--invert';
+      case 'true':
+        this.variantText = this.variantText + '--invert';
         break;
       default:
         this.variantText += '';
