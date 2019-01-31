@@ -8,6 +8,7 @@ import { BackgroundComponent } from './background/background.component';
 import { ButtonComponent } from './button/button.component';
 import { ContentAreaComponent } from './content-area/content-area.component';
 import { CardComponent } from './card/card.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardComponent } from './card/card.component';
     CardComponent,
     MenuBarComponent,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ModalComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,10 @@
+<div className="modal__background{{visible}}">
+  <div className="modal{{variantText}} animated fadeIn zoomIn faster">
+    <app-menu-bar invert variant="{{variant}}">
+      <h3>{{title}}</h3>
+    </app-menu-bar>
+    <div className="modal__content">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>
