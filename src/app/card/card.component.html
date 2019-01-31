@@ -1,0 +1,10 @@
+<app-content-area [(variant)]="variant" class="card">
+  <app-menu-bar [(variant)]="variant" class="card__title">
+    <h3>
+      {{title}}
+    </h3>
+  </app-menu-bar>
+  <div className="card__content">
+    <ng-content></ng-content>
+  </div>
+</app-content-area>
